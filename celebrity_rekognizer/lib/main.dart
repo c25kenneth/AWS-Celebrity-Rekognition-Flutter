@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:aws_ai/aws_ai.dart';
 
 
-String accessKey= 'AKIATHHE4TIEVZ6H4YXA';
-String secretKey='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'; 
+String accessKey= '**************';
+String secretKey='*********************************'; 
 String region='us-east-2'; 
 RekognitionHandler handler = RekognitionHandler(accessKey, secretKey, region);
 void main() {
